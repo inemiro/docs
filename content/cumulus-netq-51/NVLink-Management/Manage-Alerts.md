@@ -31,13 +31,14 @@ For each new metric value, NetQ analyzes historical data over a predefined time 
 
 ## License Validations
 
-NetQ broadcasts alerts when your {{<link title="Manage Licenses" text="license">}} is expired or about to expire. 
+NetQ broadcasts alerts when your {{<link title="Manage Licenses" text="NVL license">}} is expired or about to expire. 
 
 | Alert Type | Alert Group | Alert Name(s) | Severity |
 | :-- | :-- | :-- | :-- |
 | Expires Soon | `licensing` | `LicenseValidation` | warning |
 | Expired | `licensing` | `LicenseValidation` | critical |
 
+To enable or disable NVL Licensing alerts refer to the {{<link title="Manage Licenses" text="Manage Licenses">}} page.
 
 ## Update the Webhook Receiver URL
 
